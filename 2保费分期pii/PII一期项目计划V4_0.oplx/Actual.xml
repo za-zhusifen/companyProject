@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="gUsAEK9ub7u">
+  <start-date>2018-08-27T00:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r5"/>
+    <child-resource idref="r6"/>
+    <child-resource idref="r7"/>
+    <child-resource idref="r8"/>
+    <child-resource idref="r9"/>
+    <child-resource idref="r10"/>
+    <child-resource idref="r11"/>
+    <child-resource idref="r12"/>
+    <child-resource idref="r13"/>
+    <child-resource idref="r14"/>
+    <child-resource idref="r15"/>
+    <child-resource idref="r16"/>
+    <child-resource idref="r17"/>
+    <child-resource idref="r18"/>
+    <child-resource idref="r19"/>
+    <child-resource idref="r20"/>
+    <child-resource idref="r21"/>
+    <child-resource idref="r22"/>
+    <child-resource idref="r23"/>
+    <child-resource idref="r24"/>
+    <child-resource idref="r25"/>
+    <child-resource idref="r26"/>
+    <child-resource idref="r27"/>
+    <child-resource idref="r28"/>
+    <child-resource idref="r29"/>
+    <child-resource idref="r30"/>
+    <child-resource idref="r31"/>
+    <child-resource idref="r32"/>
+    <child-resource idref="r33"/>
+    <child-resource idref="r34"/>
+    <child-resource idref="r35"/>
+    <child-resource idref="r36"/>
+    <child-resource idref="r37"/>
+    <child-resource idref="r38"/>
+    <child-resource idref="r39"/>
+    <child-resource idref="r40"/>
+    <child-resource idref="r41"/>
+    <child-resource idref="r42"/>
+    <child-resource idref="r43"/>
+    <child-resource idref="r44"/>
+    <child-resource idref="r45"/>
+  </resource>
+  <resource id="r1">
+    <name>Resource 1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r2">
+    <name>PM\SA\DEV\TEST</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r3">
+    <name>DEV*2</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r4">
+    <name>DEV*2\</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r5">
+    <name>P\S\DJ\DF\T</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r6">
+    <name>DJ*2\DF*1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r7">
+    <name>dj</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r8">
+    <name>dj*1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r9">
+    <name>p\s\dj\df\t</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r10">
+    <name>dj*2\df*1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r11">
+    <name>dj*1\t*1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r12">
+    <name>DJ*1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r13">
+    <name>DJ*1\T*1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r14">
+    <name>DJ*2\T*1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r15">
+    <name>P\S\DJ1\DJ2\DF\T</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r16">
+    <name>S\DJ1\DF</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r17">
+    <name>DJ2</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r18">
+    <name>DJ2\T*1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r19">
+    <name>S\DJ1\T*1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r20">
+    <name>DJ3\T*1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r21">
+    <name>S\DF</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r22">
+    <name>DJ1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r23">
+    <name>T</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r24">
+    <name>S\DJ1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r25">
+    <name>S</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r26">
+    <name>产品\开发1\开发2\开发3\前端\测试</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r27">
+    <name>开发1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r28">
+    <name>开发2</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r29">
+    <name>测试</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r30">
+    <name>开发3</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r31">
+    <name>开发1/开发2</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r32">
+    <name>开发1/开发2/开发3/测试</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r33">
+    <name>焱鑫业务</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r34">
+    <name>产品/开发1/开发2/开发3/测试</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r35">
+    <name>开发1/前端</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r36">
+    <name>D</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r37">
+    <name>Q</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r38">
+    <name>C</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r39">
+    <name>Y</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r40">
+    <name>经纪</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r41">
+    <name>付立建</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r42">
+    <name>立建</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r43">
+    <name>豪骞</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r44">
+    <name>军昌</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r45">
+    <name>张丹</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t6"/>
+    <child-task idref="t61"/>
+    <child-task idref="t15"/>
+    <child-task idref="t2"/>
+    <child-task idref="t122"/>
+    <child-task idref="t68"/>
+    <child-task idref="t69"/>
+  </task>
+  <task id="t2">
+    <title>集成测试</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-10-31T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2018-10-31T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t6">
+    <title>需求确认/资源准备</title>
+    <effort>43200</effort>
+    <effort-done>43200</effort-done>
+    <start-constraint-date>2018-10-18T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-size">14</value>
+    </style>
+    <start-no-earlier-than>2018-10-18T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t15">
+    <title>系统开发</title>
+    <type>group</type>
+    <child-task idref="t64"/>
+    <child-task idref="t67"/>
+    <child-task idref="t65"/>
+  </task>
+  <task id="t39">
+    <title>订单借款信息提交</title>
+    <effort>72000</effort>
+    <effort-done>72000</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t40"/>
+    <assignment idref="r45"/>
+  </task>
+  <task id="t40">
+    <title>借款查询</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t111"/>
+    <assignment idref="r45"/>
+  </task>
+  <task id="t41">
+    <title>客户授权/静默开户/登陆</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t92"/>
+    <assignment idref="r44"/>
+  </task>
+  <task id="t42">
+    <title>提交订单</title>
+    <effort>72000</effort>
+    <effort-done>72000</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <assignment idref="r45"/>
+  </task>
+  <task id="t43">
+    <title>信贷产品列表查询</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t44"/>
+    <assignment idref="r44"/>
+  </task>
+  <task id="t44">
+    <title>销售人员登陆</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2018-10-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <assignment idref="r44"/>
+    <start-no-earlier-than>2018-10-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t49">
+    <title>机构用户管理（查询/新增/修改/启用）</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t50"/>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t50">
+    <title>机构管理（查询/新增/修改/启用）</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t88"/>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t51">
+    <title>借款监控查询</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t52"/>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t52">
+    <title>商品管理（查询/新增/修改/启用）</title>
+    <effort>43200</effort>
+    <effort-done>43200</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t53">
+    <title>商户管理（查询/新增/修改/启用）</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t41"/>
+    <assignment idref="r44"/>
+  </task>
+  <task id="t54">
+    <title>经纪人管理（查询/新增/修改/启用/重置密码）</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2018-10-22T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t55"/>
+    <assignment idref="r43"/>
+    <start-no-earlier-than>2018-10-22T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t55">
+    <title>修改密码</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t56"/>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t56">
+    <title>用户登录</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2018-10-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <assignment idref="r43"/>
+    <start-no-earlier-than>2018-10-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t61">
+    <title>项目搭建/系统DB设计</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-10-19T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-10-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t64">
+    <title>通用功能</title>
+    <type>group</type>
+    <start-constraint-date>2018-10-18T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t82"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2018-10-18T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t65">
+    <title>运营后台</title>
+    <type>group</type>
+    <child-task idref="t99"/>
+    <child-task idref="t95"/>
+    <child-task idref="t96"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+  </task>
+  <task id="t67">
+    <title>微信前置交互</title>
+    <type>group</type>
+    <child-task idref="t97"/>
+    <child-task idref="t98"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+  </task>
+  <task id="t68">
+    <title>系统测试</title>
+    <effort>345600</effort>
+    <start-constraint-date>2018-10-30T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-10-30T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t69">
+    <title>UAT上线</title>
+    <effort>57600</effort>
+    <start-constraint-date>2018-11-11T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="text-background-color">
+        <color space="srgb" r="0.987" g="0.25662" b="0.287296" a="0.4"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t68"/>
+    <start-no-earlier-than>2018-11-11T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t73">
+    <title>借款监控查询</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t49"/>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t82">
+    <title>权限/安全</title>
+    <effort>0</effort>
+    <effort-done>1</effort-done>
+    <start-constraint-date>2018-10-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <assignment idref="r43"/>
+    <start-no-earlier-than>2018-10-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t83">
+    <title>订单借款附件上传</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t39"/>
+    <assignment idref="r45"/>
+  </task>
+  <task id="t84">
+    <title>订单支付</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t83"/>
+    <assignment idref="r45"/>
+  </task>
+  <task id="t87">
+    <title>借款影像查看</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t51"/>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t88">
+    <title>还款计划查询（未定）</title>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t87"/>
+  </task>
+  <task id="t92">
+    <title>产品列表查询</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t43"/>
+    <assignment idref="r44"/>
+  </task>
+  <task id="t95">
+    <title>资产方</title>
+    <type>group</type>
+    <start-constraint-date>2018-10-22T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t54"/>
+    <child-task idref="t53"/>
+    <child-task idref="t52"/>
+    <child-task idref="t51"/>
+    <child-task idref="t87"/>
+    <child-task idref="t88"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2018-10-22T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t96">
+    <title>平台方</title>
+    <type>group</type>
+    <child-task idref="t50"/>
+    <child-task idref="t49"/>
+    <child-task idref="t110"/>
+    <child-task idref="t73"/>
+    <child-task idref="t108"/>
+    <child-task idref="t109"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+  </task>
+  <task id="t97">
+    <title>资产方B端销售人员</title>
+    <type>group</type>
+    <start-constraint-date>2018-10-19T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t44"/>
+    <child-task idref="t114"/>
+    <child-task idref="t43"/>
+    <child-task idref="t92"/>
+    <child-task idref="t42"/>
+    <child-task idref="t113"/>
+    <child-task idref="t111"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2018-10-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t98">
+    <title>C端借款人</title>
+    <type>group</type>
+    <child-task idref="t41"/>
+    <child-task idref="t40"/>
+    <child-task idref="t39"/>
+    <child-task idref="t83"/>
+    <child-task idref="t84"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+  </task>
+  <task id="t99">
+    <title>公共功能</title>
+    <type>group</type>
+    <child-task idref="t56"/>
+    <child-task idref="t55"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+  </task>
+  <task id="t100">
+    <title>资金方</title>
+    <type>group</type>
+    <child-task idref="t101"/>
+    <child-task idref="t117"/>
+    <child-task idref="t118"/>
+    <child-task idref="t130"/>
+    <child-task idref="t119"/>
+    <child-task idref="t120"/>
+    <child-task idref="t102"/>
+    <child-task idref="t103"/>
+  </task>
+  <task id="t101">
+    <title>首付款确认(查询/确认)</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.657" g="0.0799963" b="0.001314"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t125"/>
+    <assignment idref="r45"/>
+  </task>
+  <task id="t102">
+    <title>还款计划(未定)</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t103">
+    <title>退保管理(未定)</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t104">
+    <title>电子签章</title>
+    <type>group</type>
+    <child-task idref="t105"/>
+    <child-task idref="t106"/>
+    <child-task idref="t107"/>
+    <child-task idref="t112"/>
+    <child-task idref="t121"/>
+  </task>
+  <task id="t105">
+    <title>个人认证（借款合同未提供！）</title>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.162624" g="0.354149" b="0.672"/>
+      </value>
+    </style>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t106">
+    <title>企业认证（借款合同未提供！）</title>
+    <effort>28800</effort>
+    <effort-done>25920</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.162624" g="0.354149" b="0.672"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t105"/>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t107">
+    <title>签章（借款合同未提供！）</title>
+    <effort>28800</effort>
+    <effort-done>25920</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.162624" g="0.354149" b="0.672"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t106"/>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t108">
+    <title>借款详情</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t73"/>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t109">
+    <title>还款计划(未定)</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-10-31T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2018-10-31T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t110">
+    <title>合作机构（查询/新增/修改/启用）</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2018-10-26T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <assignment idref="r44"/>
+    <start-no-earlier-than>2018-10-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t111">
+    <title>借款查询</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t42"/>
+    <assignment idref="r45"/>
+  </task>
+  <task id="t112">
+    <title>合同查询（借款合同未提供！）</title>
+    <effort>14400</effort>
+    <effort-done>12960</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.162624" g="0.354149" b="0.672"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t107"/>
+    <assignment idref="r43"/>
+  </task>
+  <task id="t113">
+    <title>添加车辆信息</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2018-10-29T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <assignment idref="r45"/>
+    <start-no-earlier-than>2018-10-29T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t114">
+    <title>修改密码</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2018-10-29T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.467" g="0.467" b="0.467"/>
+      </value>
+    </style>
+    <assignment idref="r44"/>
+    <start-no-earlier-than>2018-10-29T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t117">
+    <title>贷款审核(查询/确认)</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.657" g="0.0799963" b="0.001314"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t101"/>
+    <assignment idref="r45"/>
+  </task>
+  <task id="t118">
+    <title>放款确认(查询/确认)</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2018-11-02T05:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.369062" g="0.13104" b="0.672"/>
+      </value>
+    </style>
+    <assignment idref="r44"/>
+    <start-no-earlier-than>2018-11-02T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t119">
+    <title>退款管理(查询/确认)</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2018-11-05T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.109736" g="0.473" b="0.239785"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t126"/>
+    <assignment idref="r42"/>
+    <start-no-earlier-than>2018-11-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t120">
+    <title>借款监控 </title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2018-11-05T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.162624" g="0.354149" b="0.672"/>
+      </value>
+    </style>
+    <assignment idref="r45"/>
+    <start-no-earlier-than>2018-11-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t121">
+    <title>借款合同(待定)</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-11-01T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-11-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t122">
+    <title>V4.0需求补充(2018/11/2~2018/11/6) 3D</title>
+    <type>group</type>
+    <start-constraint-date>2018-11-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t124"/>
+    <child-task idref="t100"/>
+    <child-task idref="t128"/>
+    <child-task idref="t104"/>
+    <style>
+      <value key="text-background-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999" a="0.4"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2018-11-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t124">
+    <title>CB端</title>
+    <type>group</type>
+    <start-constraint-date>2018-11-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t125"/>
+    <start-no-earlier-than>2018-11-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t125">
+    <title>增加税费/服务费</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2018-11-02T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.657" g="0.0799963" b="0.001314"/>
+      </value>
+    </style>
+    <assignment idref="r45"/>
+    <start-no-earlier-than>2018-11-02T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t126">
+    <title>查询资金方含银行账号查询（C端使用）</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.109736" g="0.473" b="0.239785"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t129"/>
+    <assignment idref="r42"/>
+  </task>
+  <task id="t128">
+    <title>平台方</title>
+    <type>group</type>
+    <child-task idref="t129"/>
+    <child-task idref="t126"/>
+  </task>
+  <task id="t129">
+    <title>机构增加银行账号维护</title>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2018-11-05T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.109736" g="0.473" b="0.239785"/>
+      </value>
+    </style>
+    <assignment idref="r42"/>
+    <start-no-earlier-than>2018-11-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t130">
+    <title>还款确认(查询/确认)</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.369062" g="0.13104" b="0.672"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t118"/>
+    <assignment idref="r44"/>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color space="srgb" r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
